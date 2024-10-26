@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom,#FD2B3B, #FF006E) center/cover no-repeat;
+    
+    color: #FEDC97;
+    height: 117vh;
+    /* width: 140vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.lala{
+
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #FEDC97;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+
+.lala:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 690px){
+    body{
+        background: linear-gradient(to bottom, #043757) ;
+        background-repeat: repeat;
+    }
+
+    main {
+        width: 85vw
+    }
+}
+
